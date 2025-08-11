@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luísa Naomi de Castro Suda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #080806;
+      --fg: #f6efe5;
+      --accent-blue: #3a98e4;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Inter', Arial, sans-serif;
+      min-height: 100%;
+      width: 100%;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 24px 16px 24px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .name {
+      font-size: 3.5rem;
+      font-weight: 900;
+      margin: 0 0 20px 0;
+      color: var(--fg);
+      line-height: 1.1;
+      word-break: break-word;
+    }
+    .divider {
+      border-bottom: 2px solid var(--fg);
+      margin: 32px 0 24px 0;
+      width: 100%;
+    }
+    .info-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      font-size: 1.2rem;
+      margin-bottom: 32px;
+    }
+    .info-group {
+      min-width: 220px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4em;
+    }
+    .icon {
+      font-size: 1.15em;
+      vertical-align: middle;
+      margin-right: 0.35em;
+    }
+    .icon.blue {
+      color: var(--accent-blue);
+      font-size: 1.2em;
+    }
+    .contact-link {
+      color: var(--fg);
+      text-decoration: underline;
+      transition: color 0.2s;
+      word-break: break-all;
+    }
+    .contact-link:hover {
+      color: var(--accent-blue);
+    }
+    .statement {
+      margin-top: 36px;
+      font-size: 1.15rem;
+      background: rgba(20,20,18,0.97);
+      border-radius: 12px;
+      padding: 20px 18px;
+      border-left: 6px solid var(--accent-blue);
+      max-width: 600px;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        padding: 24px 8px 8px 8px;
+      }
+      .name {
+        font-size: 2.1rem;
+      }
+      .info-row {
+        flex-direction: column;
+        gap: 18px;
+        font-size: 1rem;
+      }
+      .statement {
+        font-size: 1rem;
+        padding: 14px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="name">
+      Luísa Naomi<br />
+      de Castro Suda
+    </h1>
+    <div class="divider"></div>
+    <div class="info-row">
+      <div class="info-group">
+        <span><span class="icon">📍</span>10707, Berlin</span>
+        <span>+49 152 0 9614571</span>
+      </div>
+      <div class="info-group">
+        <span><span class="icon">✉️</span>
+          <a href="mailto:hi@luisasuda.com" class="contact-link">hi@luisasuda.com</a></span>
+        <a href="https://www.linkedin.com/in/luisasuda" class="contact-link" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="info-group">
+        <span><span class="icon blue">●</span>Valid EU Blue Card until 2029</span>
+      </div>
+    </div>
+    <div class="statement">
+      <p>
+        <b>Senior Product Manager</b> actively seeking new opportunities to transition into <b>Electrical Engineering, Systems Engineering, or Telecoms Engineering</b> roles.<br>
+        Open to contract or permanent positions.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

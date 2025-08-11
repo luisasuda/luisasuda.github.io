@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  background: #080806;
+  color: #f6efe5;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px 16px 24px;
+}
+
+.name {
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin: 0 0 20px 0;
+  color: #f6efe5;
+  line-height: 1;
+}
+
+.divider {
+  border-bottom: 2px solid #f6efe5;
+  margin: 32px 0 24px 0;
+}
+
+.info-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  font-size: 1.3rem;
+  margin-bottom: 32px;
+}
+
+.info-group {
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.icon.blue {
+  color: #3a98e4;
+  font-size: 1.3em;
+}
+
+.phone {
+  color: #f6efe5;
+}
+
+.contact-link {
+  color: #f6efe5;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: #3a98e4;
+}
+
+.statement {
+  margin-top: 36px;
+  font-size: 1.25rem;
+  background: rgba(20,20,18,0.97);
+  border-radius: 14px;
+  padding: 24px 20px;
+  border-left: 6px solid #3a98e4;
+}
